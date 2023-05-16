@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="horario.css" type="text/css" rel="stylesheet">
+    <title>Horario</title>
+    <script type="text/javascript">
+        function funcionBoton() {
+            var fecha = new Date();
+            var decision = prompt("Selecciona la localidad que desea revisar");
+
+            while (decision != "Madrid" && decision != "Malaga" && decision != "Lugo" && decision != "Barcelona" && decision != "Tarragona" && decision != "Zaragoza") {
+                alert("No tenemos sede en esa localidad")
+                decision = prompt("Seleccione la localidad que desea revisar");
+            }
+
+            var hora = fecha.getHours();
+            if (decision == "Zaragoza") {
+                if (hora < 23 || hora > 8) {
+                    alert("Estas de suerte, estamos abiertos");
+                }
+                else {
+                    alert("Lo sentimos, estamos cerrados");
+                }
+            }
+            else {
+                if (hora < 22 || hora > 12) {
+                    alert("Estas de suerte, estamos abiertos");
+                }
+                else {
+                    alert("Lo sentimos, estamos cerrados");
+                }
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <section class="Titulo" class="posFot">
+            <img class="Proyecto" src="./fotos/My project-1.png">
+        </section>
+        <nav class="menu">
+            <ul class="lista">
+                <li class="bordeIzq">
+                    <a href="home.html">
+                        <img src="./fotos/home.png" alt="" class="foto">
+                        <span class="texto">Home</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="productos.html">
+                        <img src="./fotos/productos.jpg" alt="" class="foto">
+                        <img src="./fotos/cosmetica.png" alt="" class="foto2">
+                        <img src="./fotos/herbolario.jpg" alt="" class="foto3">
+                        <img src="./fotos/limpieza.png" alt="" class="foto4">
+                        <span class="texto">Productos</span>
+
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promociones.html">
+                        <img src="./fotos/promociones.png" alt="" class="foto">
+                        <span class="texto">Promociones</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contacto.html">
+                        <img src="./fotos/contacto.png" alt="" class="foto">
+                        <span class="texto">Contáctanos</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="quienes_somos.html">
+                        <img src="./fotos/quienes.png" alt="" class="foto">
+                        <span class="texto">Quienes somos</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="horario.html">
+                        <img src="./fotos/horario.png" alt="" class="foto">
+                        <span class="texto">Horario</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="tablaTam">
+            <table class="tabla1">
+                <caption> Listado de Horarios</caption>
+                <thead>
+                    <tr>
+                        <th> Localidad </th>
+                        <th> Hora de apertura </th>
+                        <th> Hora de cierre </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Centro WEBGOLD Tarragona</td>
+                        <td>12:00</td>
+                        <td>22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Centro WEBGOLD Barcelona</td>
+                        <td>12:00</td>
+                        <td>22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sede principal WEBGOLD Zaragoza</td>
+                        <td>8:00</td>
+                        <td>23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Centro WEBGOLD Málaga</td>
+                        <td>12:00</td>
+                        <td>22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Centro WEBGOLD Madrid</td>
+                        <td>12:00</td>
+                        <td>22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Centro WEBGOLD Lugo</td>
+                        <td>12:00</td>
+                        <td>22:00</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+            <h1 class="titulo"> Los horarios de la página pueden variar en función de festividades y fines de semana,
+                pulsa el botón de
+                abajo para 100% de fiabilidad horario</h1>
+            <button onclick="funcionBoton()" class="boton">PULSE PARA VER SI ESTAMOS ABIERTOS</button>
+        </section>
+    </main>
