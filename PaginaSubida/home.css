@@ -203,11 +203,12 @@ body {
     word-spacing: 5px;
 }
 
+
 .Foto1 {
     margin-top: 55px;
+    max-width: 100%;
     border: 10px solid rgb(32, 113, 81);
     border-style: double;
     height: 300px;
-
 
 }

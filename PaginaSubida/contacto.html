@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contacto.css" type="text/css" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <section class="Titulo" class="posFot">
+            <img class="Proyecto" src="./fotos/My project-1.png">
+        </section>
+        <nav class="menu">
+            <ul class="lista">
+                <li class="bordeIzq">
+                    <a href="home.html">
+                        <img src="./fotos/home.png" alt="" class="foto">
+                        <span class="texto">Home</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="productos.html">
+                        <img src="./fotos/productos.jpg" alt="" class="foto">
+                        <img src="./fotos/cosmetica.png" alt="" class="foto2">
+                        <img src="./fotos/herbolario.jpg" alt="" class="foto3">
+                        <img src="./fotos/limpieza.png" alt="" class="foto4">
+                        <span class="texto">Productos</span>
+
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promociones.html">
+                        <img src="./fotos/promociones.png" alt="" class="foto">
+                        <span class="texto">Promociones</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contacto.html">
+                        <img src="./fotos/contacto.png" alt="" class="foto">
+                        <span class="texto">Contáctanos</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="quienes_somos.html">
+                        <img src="./fotos/quienes.png" alt="" class="foto">
+                        <span class="texto">Quienes somos</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="horario.html">
+                        <img src="./fotos/horario.png" alt="" class="foto">
+                        <span class="texto">Horario</span>
+                        <span class="desplegable"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div class="fondo">
+            <section class="caja">
+                <form class="formulario">
+                    <h2 class="TituloFormulario"> ¿Problemas con algun pedido? </h2>
+                    <label for="Nombre"> Nombre </label>
+                    <input type="text" id="Nombre" placeholder="Nombre" pattern="[A-Za-z]+" required>
+                    <label for="Apellidos"> Apellidos </label>
+                    <input type="text" id="Apellidos" placeholder="Apellidos" pattern="[A-Za-z]+" required>
+                    <label for="Numero"> Nº de Teléfono </label>
+                    <input type="text" id="Numero" placeholder="Nº de teléfono" pattern="[0-9]{9}" required>
+                    <label for="Correo"> Correo Electrónico </label>
+                    <input type="email" id="Correo" placeholder="Correo Electrónico" required>
+                    <p class="Puesto">¿Qué tipo de problema has tenido?</p><br>
+                    <select class="Seleccionar" name="¿Qué puesto estas solicitando?"> ¿Qué tipo de problema has tenido?
+                        <option selected> Selecciona </option>
+                        <option value="Programador" required> Pedido extraviado </option>
+                        <option value="Diseñador Web" required> Mal estado de entrega </option>
+                        <option value="Diseñador 3D" required> No ha llegado lo que he pedido </option>
+                        <option value="Diseñador 3D" required> Devolucion de pedido </option>
+                    </select>
+                    <label for="NumeroRef"> Número de referencia </label>
+                    <input type="text" id="NumeroRef" placeholder="Número de referencia" pattern="[A-Za-z]+" required>
+                    <label for="Aportar"> Coméntanos el problema en profundidad</label>
+                    <textarea name="Aportar" placeholder="Escribe aquí" required></textarea>
+                    <label for="CV"> Adjunta algun número de referencia o anexo que veas necesario para el
+                        trámite</label>
+                    <input type="file" id="CV">
+                    <input type="submit" class="Color">
+                </form>
+            </section>
+        </div>
+
+    </main>
