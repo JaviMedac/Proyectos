@@ -12,6 +12,17 @@
             var caja = document.getElementById('NumeroRef');
             caja.disabled = true;
         };
+        function encender() {
+            var caja2 = document.getElementById('NumeroRef');
+            var selected = document.getElementById('seleccionar')
+            var option = selected.options[selected.selectedIndex].value;
+            if (option != "Otro") {
+                caja2.disabled = false;
+            }
+            else {
+                caja2.disabled = true;
+            }
+        };
     </script>
 </head>
 
@@ -86,7 +97,10 @@
                     <label for="Correo"> Correo Electrónico </label>
                     <input type="email" id="Correo" placeholder="Correo Electrónico" required>
                     <p class="Puesto">¿Qué tipo de problema has tenido?</p><br>
-                    <select class="Seleccionar" name="¿Qué puesto estas solicitando?"> ¿Qué tipo de
+                    <select class="Seleccionar" name="¿Qué puesto estas solicitando?" id="seleccionar"
+                        onchange="encender()"> ¿Qué
+                        tipo
+                        de
                         problema has tenido?
                         <option selected> Selecciona </option>
                         <option value="Pedido" required> Pedido extraviado </option>
