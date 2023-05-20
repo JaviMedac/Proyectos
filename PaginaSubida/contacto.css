@@ -22,7 +22,7 @@ header {
 
 .Proyecto {
     position: absolute;
-    background-size: cover;
+    width: 100%;
     z-index: -1;
 }
 
