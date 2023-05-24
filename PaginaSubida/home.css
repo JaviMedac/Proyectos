@@ -190,6 +190,11 @@ body {
     margin: auto;
 }
 
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
 .Titulo2 {
     color: rgb(6, 107, 40);
     font-size: 50px;
