@@ -20,20 +20,12 @@ header {
     position: relative;
 }
 
-.Proyecto {
-    position: absolute;
-    background-size: cover;
-    z-index: -1;
-}
-
 body {
     font-family: "Rainbow";
     margin: 0;
 }
 
-.posFot {
-    width: 100%;
-}
+
 
 .Titulo {
     width: 100%;
@@ -45,6 +37,13 @@ body {
     position: relative;
     overflow: hidden;
 }
+
+.Proyecto {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
 
 
 .menu {
