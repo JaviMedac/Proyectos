@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <alimentacion>
+        <articulo>Tomate Frito ECO Planeta</articulo>
+        <descripcion>Hecho con tomates ecológicos de huerto</descripcion>
+        <precio>1.90€/unidad</precio>
+    </alimentacion>
+    <alimentacion>
+        <articulo>Crema de Cacahuetes ECO Planeta</articulo>
+        <descripcion>Rico sabor con un gran valor nutritivo</descripcion>
+        <precio>5.50€/unidad</precio>
+    </alimentacion>
+    <alimentacion>
+        <articulo>Copos de Avena (sin gluten) ECO Planeta</articulo>
+        <descripcion>Ricos copos de avena sin gluten, apto para cualquier desayuno nutritivo y
+            saludable</descripcion>
+        <precio>2.75€/unidad</precio>
+    </alimentacion>
+    <cosmetica>
+        <articulo>Champú sólido anticaida HIT</articulo>
+        <descripcion>Producto de estética capilar más vendido entre nuestros clientes</descripcion>
+        <precio>15.50€/unidad</precio>
+    </cosmetica>
+    <cosmetica>
+        <articulo>Pack rutina facial - Well Aging - para piel madura</articulo>
+        <descripcion>Porque todo el mundo tiene derecho a cuidarse, prueba nuestro nuevo pack</descripcion>
+        <precio>75.51€/pack</precio>
+    </cosmetica>
+    <cosmetica>
+        <articulo>Gel de Ducha en polvo Silvestre</articulo>
+        <descripcion>Nuestro último gel listo para sacar al mercado</descripcion>
+        <precio>8.75€/unidad</precio>
+    </cosmetica>
+    <herbolario>
+        <articulo></articulo>
+        <descripcion></descripcion>
+        <precio></precio>
+    </herbolario>
+    <herbolario>
+        <articulo></articulo>
+        <descripcion></descripcion>
+        <precio></precio>
+    </herbolario>
+    <herbolario>
+        <articulo></articulo>
+        <descripcion></descripcion>
+        <precio></precio>
+    </herbolario>
+    <limpieza>
+        <articulo></articulo>
+        <descripcion></descripcion>
+        <precio></precio>
+    </limpieza>
+    <limpieza>
+        <articulo></articulo>
+        <descripcion></descripcion>
+        <precio></precio>
+    </limpieza>
+    <limpieza>
+        <articulo></articulo>
+        <descripcion></descripcion>
+        <precio></precio>
+    </limpieza>
+</productos>

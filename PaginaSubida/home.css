@@ -200,7 +200,7 @@ body {
 
 .imagen {
     width: 48%;
-    margin-left: 25%;
+    align-items: center;
     border: 1px solid white;
     border-radius: 10%;
 
@@ -231,9 +231,6 @@ body {
     text-transform: capitalize;
 }
 
-.Textos h3::before {
-    content: "--> ";
-}
 
 .Textos p {
     font-size: 20px;
@@ -246,9 +243,4 @@ body {
 
 .Textos p::first-letter {
     font-size: 40px
-}
-
-.Textos p::after {
-    content: " 'May your heart be your guiding key' ";
-    text-decoration: underline;
 }
