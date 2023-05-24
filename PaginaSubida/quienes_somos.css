@@ -11,6 +11,7 @@
 
 main {
     text-align: center;
+
 }
 
 img {
@@ -186,7 +187,8 @@ body {
 }
 
 .caja-Primer-apartado {
-    background-color: rgb(187, 233, 217);
+    background-image: url(./fotos/fondoverde.png);
+    background-attachment: fixed;
     flex-direction: column;
     text-align: center;
     padding-bottom: 5%;

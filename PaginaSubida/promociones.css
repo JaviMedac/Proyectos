@@ -9,11 +9,9 @@
 }
 
 main {
-    text-align: center;
-}
+    background-image: url(./fotos/fondoverde.png);
+    background-attachment: fixed;
 
-img {
-    max-width: 100%;
 }
 
 header {
@@ -43,7 +41,6 @@ body {
     width: 100%;
     z-index: -1;
 }
-
 
 
 .menu {
@@ -169,4 +166,72 @@ body {
     margin-bottom: 300%;
     width: 100%;
     right: 0px;
+}
+
+.primeraCaja {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+.segundaCaja {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+.cajaPromocion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Promocion {
+    border-radius: 10px;
+}
+
+.Promocion :hover {
+    box-shadow: 0px 10px 20px black;
+}
+
+.Producto {
+    padding: 15px 30px;
+}
+
+.Promocion img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.Promocion figure {
+    overflow: hidden;
+}
+
+.Promocion :hover img {
+    transform: scale(120%);
+
+}
+
+.Producto {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Precio {
+    font-size: 18px;
+}
+
+.Producto button {
+    border: none;
+    background: none;
+    background-color: black;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 15px 30px;
 }
