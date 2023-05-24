@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cosmetica.xsl"?>
 <productos>
     <alimentacion>
         <articulo>Tomate Frito ECO Planeta</articulo>
@@ -32,33 +33,33 @@
         <precio>8.75€/unidad</precio>
     </cosmetica>
     <herbolario>
-        <articulo></articulo>
-        <descripcion></descripcion>
-        <precio></precio>
+        <articulo>Aloe Vera ecológico 1L</articulo>
+        <descripcion>Para el tratamiento externo de numerosas afecciones de la piel</descripcion>
+        <precio>21.45€/unidad</precio>
     </herbolario>
     <herbolario>
-        <articulo></articulo>
-        <descripcion></descripcion>
-        <precio></precio>
+        <articulo>Colágeno Marino sabor frutas del bosque</articulo>
+        <descripcion>Contribuye a la formación del colágeno para la función normal del cartílago y la piel</descripcion>
+        <precio>29.99€/unidad</precio>
     </herbolario>
     <herbolario>
-        <articulo></articulo>
-        <descripcion></descripcion>
-        <precio></precio>
+        <articulo>Magnesio Bisglicinato Plus - Sura Vitasan - 120 cápsulas</articulo>
+        <descripcion>Complemento nutricional indicado para estados carenciales de magnesio y como protector cardiovascular.</descripcion>
+        <precio>26.20€/unidad</precio>
     </herbolario>
     <limpieza>
-        <articulo></articulo>
-        <descripcion></descripcion>
-        <precio></precio>
+        <articulo>Limpiacristales Ecológico Ecolabel - GFA 5 Litros</articulo>
+        <descripcion>Especial para eliminar suciedad general en todo tipo de superficies de forma rápida y eficaz.</descripcion>
+        <precio>12.69€/unidad</precio>
     </limpieza>
     <limpieza>
-        <articulo></articulo>
-        <descripcion></descripcion>
-        <precio></precio>
+        <articulo>Desengrasante Ecológico Ecolabel - GFA 5 Litros</articulo>
+        <descripcion>Especial para limpieza de cocinas e industria alimentaria.</descripcion>
+        <precio>17.72€/unidad</precio>
     </limpieza>
     <limpieza>
-        <articulo></articulo>
-        <descripcion></descripcion>
-        <precio></precio>
+        <articulo>Limpiabaños Ecológico Ecolabel - GFA 5 Litros</articulo>
+        <descripcion>Especial para eliminar suciedad general e incrustación de cal en baños, aseos y servicios.</descripcion>
+        <precio>16.24€/unidad</precio>
     </limpieza>
 </productos>
