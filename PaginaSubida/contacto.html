@@ -7,6 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="contacto.css" type="text/css" rel="stylesheet">
     <title>Contacto</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var caja = document.getElementById('NumeroRef');
+            caja.disabled = true;
+        };
+        function encender() {
+            var caja2 = document.getElementById('NumeroRef');
+            var selected = document.getElementById('seleccionar')
+            var option = selected.options[selected.selectedIndex].value;
+            if (option != "Otro") {
+                caja2.disabled = false;
+            }
+            else {
+                caja2.disabled = true;
+            }
+        };
+    </script>
 </head>
 
 <body>
@@ -80,15 +97,20 @@
                     <label for="Correo"> Correo Electrónico </label>
                     <input type="email" id="Correo" placeholder="Correo Electrónico" required>
                     <p class="Puesto">¿Qué tipo de problema has tenido?</p><br>
-                    <select class="Seleccionar" name="¿Qué puesto estas solicitando?"> ¿Qué tipo de problema has tenido?
+                    <select class="Seleccionar" name="¿Qué puesto estas solicitando?" id="seleccionar"
+                        onchange="encender()"> ¿Qué
+                        tipo
+                        de
+                        problema has tenido?
                         <option selected> Selecciona </option>
-                        <option value="Programador" required> Pedido extraviado </option>
-                        <option value="Diseñador Web" required> Mal estado de entrega </option>
-                        <option value="Diseñador 3D" required> No ha llegado lo que he pedido </option>
-                        <option value="Diseñador 3D" required> Devolucion de pedido </option>
+                        <option value="Pedido" required> Pedido extraviado </option>
+                        <option value="Estado" required> Mal estado de entrega </option>
+                        <option value="Desvio" required> No ha llegado lo que he pedido </option>
+                        <option value="Devolver" required> Devolucion de pedido </option>
+                        <option value="Otro" required> Otra incidencia </option>
                     </select>
                     <label for="NumeroRef"> Número de referencia </label>
-                    <input type="text" id="NumeroRef" placeholder="Número de referencia" pattern="[A-Za-z]+" required>
+                    <input type="text" id="NumeroRef" placeholder="Número de referencia" required>
                     <label for="Aportar"> Coméntanos el problema en profundidad</label>
                     <textarea name="Aportar" placeholder="Escribe aquí" required></textarea>
                     <label for="CV"> Adjunta algun número de referencia o anexo que veas necesario para el
