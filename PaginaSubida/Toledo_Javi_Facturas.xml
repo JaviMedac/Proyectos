@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<!DOCTYPE facturas SYSTEM "facturas.dtd">-->
+<!--<!DOCTYPE facturas SYSTEM "Toledo_Javi_DTD_Facturas.dtd">-->
 <facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="facturas.xsd">
+ xsi:noNamespaceSchemaLocation="Toledo_Javi_XSD_Facturas.xsd">
     <factura DNI_Cliente="74423604Z">
         <producto Proveedor="EcoPlaneta" Tipo="Alimentacion" Nacional="No">
             <marca>Eco Planeta</marca>
