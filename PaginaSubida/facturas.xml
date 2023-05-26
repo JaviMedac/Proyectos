@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura DNI_Cliente="74423604Z">
+        <producto Proveedor="EcoPlaneta" Tipo="Alimentacion" Nacional="No">
+            <marca>Eco Planeta</marca>
+            <nombre>Copos de Avena</nombre>
+            <tipo>Alimentacion</tipo>
+            <componentes>1 paquete</componentes>
+            <peso>1 kg</peso>
+            <precio>2.75€</precio>
+            <observaciones>Gran tiempo de entrega</observaciones>
+        </producto>
+
+        <formulariopedido DNI_Cliente="74423604Z">
+            <nombre>Javier</nombre>
+            <apellido>Toledo Carbonell</apellido>
+            <email>javier3@gmail.com</email>
+            <telfM>651542564</telfM>
+            <telfM>614254845</telfM>
+            <telfF>952654847</telfF>
+            <domicilio>Calle Adolfo</domicilio>
+            <fechaNac>24/4/2050</fechaNac>
+            <dni>74423604Z</dni>
+            <sexo>Masculino</sexo>
+
+        </formulariopedido>
+
+        <fecha ModoEnvio="Correos">
+
+        </fecha>
+    </factura>
+    <factura DNI_Cliente="72443712X">
+        <producto Proveedor="EcoPlaneta" Tipo="Alimentacion" Nacional="Si">
+            <marca>Eco Planeta</marca>
+            <nombre>Tomate Frito</nombre>
+            <tipo>Alimentacion</tipo>
+            <componentes>1 Paquete</componentes>
+            <tamaño>40 cm</tamaño>
+            <precio>1.90€</precio>
+        </producto>
+
+        <formulariopedido DNI_Cliente="72443712X">
+            <nombre>Agosto</nombre>
+            <apellido>Fernandez</apellido>
+            <email>agosto_julio@gmail.com</email>
+            <telfM>666451578</telfM>
+            <telfF>952426847</telfF>
+            <telfF>952659424</telfF>
+            <domicilio>Calle Septiembre</domicilio>
+            <fechaNac>14/14/2014</fechaNac>
+            <dni>72443712X</dni>
+            <sexo>Masculino</sexo>
+            <observaciones>Disponibilidad horaria</observaciones>
+
+        </formulariopedido>
+
+        <fecha ModoEnvio="Correos">
+
+        </fecha>
+    </factura>
+    <factura DNI_Cliente="71243452Q">
+        <producto Proveedor="Well Aging" Tipo="Cosmética" Nacional="No">
+            <marca>Well Aging</marca>
+            <nombre>Pack Rutina Facial</nombre>
+            <tipo>Cosmética</tipo>
+            <componentes>Crema facial</componentes>
+            <componentes>Gel de baño</componentes>
+            <componentes>Paquete de sales</componentes>
+            <peso>2 kg</peso>
+            <precio>75.51€</precio>
+            <observaciones>Gran Stock</observaciones>
+        </producto>
+
+        <formulariopedido DNI_Cliente="71243452Q">
+            <nombre>Miercoles</nombre>
+            <apellido>Rodriguez</apellido>
+            <email>miercoles_jueves@gmail.com</email>
+            <telfM>654585957</telfM>
+            <telfF>654475869</telfF>
+            <domicilio>Calle Lunes</domicilio>
+            <fechaNac>7/7/2007</fechaNac>
+            <dni>71243452Q</dni>
+            <sexo>Masculino</sexo>
+
+        </formulariopedido>
+
+        <fecha ModoEnvio="Recogida en tienda">
+
+        </fecha>
+    </factura>
+
+
+</facturas>
