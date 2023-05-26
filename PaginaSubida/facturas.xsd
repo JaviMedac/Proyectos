@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="facturas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="factura" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="producto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="marca" type="xs:string" />
+                                        <xs:element name="nombre" type="xs:string" />
+                                        <xs:element name="tipo" type="xs:string" />
+                                        <xs:element name="componentes" maxOccurs="unbounded"
+                                            type="xs:string" />
+                                        <xs:element name="peso" minOccurs="0" type="xs:string" />
+                                        <xs:element name="tamano" minOccurs="0" type="xs:string" />
+                                        <xs:element name="precio" type="xs:string" />
+                                        <xs:element name="observaciones" minOccurs="0"
+                                            type="xs:string" />
+                                        
+                                    </xs:sequence>
+                                    <xs:attribute name="Proveedor" use="required" />
+                                    <xs:attribute name="Tipo" use="required" />
+                                    <xs:attribute name="Nacional" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="formulariopedido">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
+                                        <xs:element name="apellido" type="xs:string" />
+                                        <xs:element name="email" type="xs:string" />
+                                        <xs:element name="telfM" maxOccurs="unbounded"
+                                            type="xs:string" />
+                                        <xs:element name="telfF" maxOccurs="unbounded"
+                                            type="xs:string" />
+                                        <xs:element name="domicilio" type="xs:string" />
+                                        <xs:element name="fechaNac" type="xs:string" />
+                                        <xs:element name="dni" type="xs:string" />
+                                        <xs:element name="sexo" type="xs:string" />
+                                        <xs:element name="observaciones" minOccurs="0"
+                                            type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="DNI_Cliente" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fecha">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="ModoEnvio" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="DNI_Cliente" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

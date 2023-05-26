@@ -1,0 +1,39 @@
+<!ELEMENT facturas (factura*)>
+
+<!ELEMENT factura (producto+,formulariopedido+,fecha)>
+<!ELEMENT producto (marca, nombre, tipo, componentes+, (tamano|peso), precio, observaciones?)>
+<!ELEMENT formulariopedido (nombre, apellido, email, telfM+, telfF+, domicilio, fechaNac, dni, sexo, observaciones?)>
+
+
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT componentes (#PCDATA)>
+<!ELEMENT tamano (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+
+
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telfM (#PCDATA)>
+<!ELEMENT telfF (#PCDATA)>
+<!ELEMENT domicilio (#PCDATA)>
+<!ELEMENT fechaNac (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>
+
+
+<!--ATRIBUTOS -->
+<!ATTLIST factura DNI_Cliente CDATA #REQUIRED>
+
+<!ATTLIST producto Proveedor CDATA #REQUIRED>
+<!ATTLIST producto Tipo CDATA #REQUIRED>
+<!ATTLIST producto Nacional CDATA #REQUIRED>
+
+<!ATTLIST formulariopedido DNI_Cliente NMTOKEN #REQUIRED>
+
+<!ATTLIST fecha ModoEnvio CDATA #REQUIRED>

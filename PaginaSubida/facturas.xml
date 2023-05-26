@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE facturas SYSTEM "factura.dtd">
-<facturas>
+<!--<!DOCTYPE facturas SYSTEM "facturas.dtd">-->
+<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="facturas.xsd">
     <factura DNI_Cliente="74423604Z">
         <producto Proveedor="EcoPlaneta" Tipo="Alimentacion" Nacional="No">
             <marca>Eco Planeta</marca>
@@ -36,7 +37,7 @@
             <nombre>Tomate Frito</nombre>
             <tipo>Alimentacion</tipo>
             <componentes>1 Paquete</componentes>
-            <tamaño>40 cm</tamaño>
+            <tamano>40 cm</tamano>
             <precio>1.90€</precio>
         </producto>
 
