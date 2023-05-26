@@ -1,0 +1,16 @@
+<!ELEMENT facturas (factura*)>
+
+<!ELEMENT factura  (producto+,formulariopedido+,fecha)>
+<!ELEMENT producto  (marca, nombre, tipo, componentes+, (tamano|peso), precio, observaciones?)>
+<!ELEMENT formulariopedido  (nombre, apellido, email, telfM+, telfF+, domicilio, fechaNac, dni, sexo, observaciones?)>
+
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT pegi (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+
+<!ATTLIST producto ProductoID CDATA #REQUIRED>

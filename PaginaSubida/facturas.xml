@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas SYSTEM "factura.dtd">
 <facturas>
     <factura DNI_Cliente="74423604Z">
         <producto Proveedor="EcoPlaneta" Tipo="Alimentacion" Nacional="No">
