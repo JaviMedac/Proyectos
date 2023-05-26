@@ -9,6 +9,156 @@
     <title>Promociones</title>
     <script>
         function validar() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[0];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 25) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
+
+
+        }
+        function validar2() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[1];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 15) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
+
+        }
+        function validar3() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[2];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 45) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
+
+        }
+        function validar4() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[3];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 75) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
+
+        }
+        function validar5() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[4];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 5) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
+
+        }
+        function validar6() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[5];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 90) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
+
+        }
+        function validar7() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[6];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 50) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
+
+        }
+        function validar8() {
+            var resta;
+            var valor;
+            var final;
+            var precio = document.getElementsByClassName("Precio")[7];
+            var descuento = parseInt(prompt("De cuanto quieres aplicar el descuento(En %)"));
+            if (descuento > 100) {
+                alert("Ese descuento no está disponible en estas fechas");
+            }
+            else {
+                alert("Descuento de " + descuento + "% aplicado");
+                resta = (parseInt(precio.textContent) * descuento) / 100;
+                valor = parseInt(precio.textContent) - resta;
+                final = String(valor);
+                precio.textContent = final;
+            }
+
 
         }
     </script>
@@ -86,7 +236,7 @@
                     </figure>
                     <div class="Producto">
                         <h2> Aloe Vera </h2>
-                        <p class="Precio"> </p>
+                        <p class="Precio">21.45</p>
                         <button onclick="validar()">Promocion</button>
                     </div>
 
@@ -99,8 +249,8 @@
                     </figure>
                     <div class="Producto">
                         <h2> Magnesio </h2>
-                        <p class="Precio"> </p>
-                        <button onclick="validar()">Promocion</button>
+                        <p class="Precio">26.20</p>
+                        <button onclick="validar2()">Promocion</button>
                     </div>
 
                 </div>
@@ -112,8 +262,8 @@
                     </figure>
                     <div class="Producto">
                         <h2> Colágeno Marino </h2>
-                        <p class="Precio"> </p>
-                        <button onclick="validar()">Promocion</button>
+                        <p class="Precio">29.99</p>
+                        <button onclick="validar3()">Promocion</button>
                     </div>
 
                 </div>
@@ -125,8 +275,8 @@
                     </figure>
                     <div class="Producto">
                         <h2> Productos de Baño</h2>
-                        <p class="Precio"> </p>
-                        <button onclick="validar()">Promocion</button>
+                        <p class="Precio">16.24</p>
+                        <button onclick="validar4()">Promocion</button>
                     </div>
 
                 </div>
@@ -141,8 +291,8 @@
                     </figure>
                     <div class="Producto">
                         <h2> Champoo </h2>
-                        <p class="Precio"> </p>
-                        <button onclick="validar()">Promocion</button>
+                        <p class="Precio">15.50</p>
+                        <button onclick="validar5()">Promocion</button>
                     </div>
 
                 </div>
@@ -154,8 +304,8 @@
                     </figure>
                     <div class="Producto">
                         <h2> Gel de baño </h2>
-                        <p class="Precio"> </p>
-                        <button onclick="validar()">Promocion</button>
+                        <p class="Precio">8.75</p>
+                        <button onclick="validar6()">Promocion</button>
                     </div>
 
                 </div>
@@ -167,8 +317,8 @@
                     </figure>
                     <div class="Producto">
                         <h2> Copos de Avena </h2>
-                        <p class="Precio"> </p>
-                        <button onclick="validar()">Promocion</button>
+                        <p class="Precio">2.75</p>
+                        <button onclick="validar7()">Promocion</button>
                     </div>
 
                 </div>
@@ -180,8 +330,8 @@
                     </figure>
                     <div class="Producto">
                         <h2> Crema de Cacahuete </h2>
-                        <p class="Precio"> </p>
-                        <button onclick="validar()">Promocion</button>
+                        <p class="Precio">5.50</p>
+                        <button onclick="validar8()">Promocion</button>
                     </div>
 
                 </div>
@@ -190,6 +340,42 @@
         </section>
 
     </main>
+    <footer>
+        <div class="contenedorFooter">
+            <div class="cajaFooter">
+                <div class="logosFooter">
+                    <img src="fotos/logo.png">
+                </div>
+                <div class="TextoFooter">
+                    <p>Somos la red de productos ecológicos más grande de Europa. Cosmética,
+                        alimentación, herbolario y productos de limpieza, todos de la máxima
+                        calidad.
+                    </p>
+                </div>
+            </div>
+            <div class="cajaFooter">
+                <h2>Afiliados</h2>
+                <a href="https://www.un.org/es/"> <img src="fotos/naciones-unidas.png" width="40" height="40"> </a>
+                <a href="https://es.greenpeace.org/es"><img src="fotos/eco.png" width="40" height="40"></a>
+            </div>
+            <div class="cajaFooter">
+                <h2> Redes Sociales</h2>
+                <a href="https://www.medac.es"> <img src="fotos/gorjeo.png" width="40" height="40"></a>
+                <a href="https://www.medac.es"><img src="fotos/instagram.png" width="40" height="40"></a>
+            </div>
+        </div>
+        <div class="cajaCopyright">
+            <hr>
+            <p>©webGold ©WebGold/Verde. Desarrollado por Javier.Inc. VERDE QUE TE QUUERO VERDE y el logotipo de WEBGOLD
+                son marcas
+                registradas o marcas comerciales de Javier Toledo Holdings Co., Ltd.
+                El ícono de calificaciones es una marca registrada de Entertainment Software Association. "WEBGOLD",
+                el logotipo de la familia "WB" y "WEB" son marcas comerciales registradas y el logotipo de WEBGOLD
+                Network es una marca comercial de Sony Interactive Entertainment Inc. Todas las demás marcas comerciales
+                pertenecen a sus respectivos dueños.
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>

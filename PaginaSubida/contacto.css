@@ -244,3 +244,80 @@ textarea {
 .Color:hover {
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+    background: url(fotos/footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedorFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cajaFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.cajaFooter .logosFooter img {
+    width: 180px;
+}
+
+.cajaFooter .TextoFooter p {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+}
+
+.cajaFooter h2 {
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.cajaFooter a {
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.cajaFooter a img:hover {
+    opacity: 0.8;
+}
+
+.cajaFooter a:hover {
+    opacity: 0.8;
+}
+
+.cajaCopyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.cajaCopyright p {
+    margin-top: 20px;
+    color: white;
+
+}
+
+.cajaCopyright hr {
+    /*display: none;*/
+    border: none;
+    height: 1px;
+    background-color: white;
+}
