@@ -12,6 +12,15 @@
             <precio>2.75€</precio>
             <observaciones>Gran tiempo de entrega</observaciones>
         </producto>
+        <producto Proveedor="EcoPlaneta" Tipo="Alimentacion" Nacional="Si">
+            <marca>Eco Planeta</marca>
+            <nombre>Crema de Cacahuetes</nombre>
+            <tipo>Alimentacion</tipo>
+            <componentes>1 paquete</componentes>
+            <peso>3 kg</peso>
+            <precio>5.50€</precio>
+            <observaciones>Muy nutritivo</observaciones>
+        </producto>
 
         <formulariopedido DNI_Cliente="74423604Z">
             <nombre>Javier</nombre>
@@ -40,6 +49,7 @@
             <tamano>40 cm</tamano>
             <precio>1.90€</precio>
         </producto>
+        
 
         <formulariopedido DNI_Cliente="72443712X">
             <nombre>Agosto</nombre>
@@ -53,6 +63,19 @@
             <dni>72443712X</dni>
             <sexo>Masculino</sexo>
             <observaciones>Disponibilidad horaria</observaciones>
+
+        </formulariopedido>
+        <formulariopedido DNI_Cliente="72276712T">
+            <nombre>Agosta</nombre>
+            <apellido>Fernandez</apellido>
+            <email>agosta_julio@gmail.com</email>
+            <telfM>666451577</telfM>
+            <telfF>952426842</telfF>
+            <telfF>952659423</telfF>
+            <domicilio>Calle Marzo</domicilio>
+            <fechaNac>17/12/2001</fechaNac>
+            <dni>72276712T</dni>
+            <sexo>Femenino</sexo>
 
         </formulariopedido>
 

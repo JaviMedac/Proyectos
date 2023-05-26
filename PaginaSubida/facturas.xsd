@@ -6,7 +6,7 @@
                 <xs:element name="factura" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="producto">
+                            <xs:element name="producto" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="marca" type="xs:string" />
@@ -26,7 +26,7 @@
                                     <xs:attribute name="Nacional" use="required" />
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="formulariopedido">
+                            <xs:element name="formulariopedido" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="nombre" type="xs:string" />
